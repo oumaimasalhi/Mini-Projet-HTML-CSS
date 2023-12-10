@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+/*****************************************************************************************************************************************/
+header.container-fluid{
+    background-color:rgba(250, 248, 248, 0.979);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0; 
+}
+
+.logo-im{
+    width: 90px; 
+    height: 50px;
+    margin-left: 70px;  
+    margin-right: 500px;
+}
+
+.container-navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-liste li{
+  float: right ;
+  margin-right: 50px; 
+  list-style: none;
+  cursor: pointer; 
+
+}
+
+.menu-liste a{
+    text-decoration: none; 
+    color:cornflowerblue; 
+    font-size: 17px;
+    
+}
+.chercher-search input{
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 8px;
+    padding: 8px;
+    border:none;
+    outline: none;
+    background-color: #cad2e2;
+}
+/********************************************************************************************************************************************/
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: currentcolor;
+    font-family: inherit;
+    text-align: center;
+}
+span{
+    display: flex;
+    justify-content: center;
+    color:cornflowerblue; 
+    font-size: 15px;
+    text-align: center;  
+}
+
+/*************************************************************************************************************************************/
+.main{
+margin: 20px;
+margin-top: 80px;
+
+}
+
+.cards{
+   
+    margin:auto;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    margin: 10px auto;
+    cursor:pointer;
+    display:flex;
+    flex-direction: column-reverse; 
+    text-align: center;
+}
+
+  
+.card img{
+    width: 450px;
+    
+}
+
+.vedio{
+    margin-top: 80px;
+    width: 90%;
+}
+.vedio iframe{
+    border: none;
+    border-radius: 10px;
+    width: 900px;
+    height: 300px;
+    margin-left: 25%;
+    
+}
+.identification{
+    background-color: lightblue
+}
+
+h3{
+    font-size:30px;
+    text-align: center;
+    color: darkblue;
+    margin-top: 50px;
+
+}
+.imgmap{
+    margin-left: 980px;
+    margin-top: -294px;
+    width: 470px;
+    height: 270px;
+}
+ 
+/*******************************************************************************/
+footer{
+background-color: black;
+color: white;
+margin-top: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between ;
+}
+
+.social-media{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+} 
+
+p{  
+    justify-content: space-around;
+    margin-right: 15px;
+    width: 15px; 
+    cursor: pointer;
+}
+
+h5{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: cadetblue;
+
+}
+     
+
+
+    
+ 
+    
+
+ 
